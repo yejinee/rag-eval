@@ -1,0 +1,15 @@
+# 골든셋 평가 도구 의존성 (Python 3.12 에서 동작 확인한 조합)
+#
+# ※ langchain-community 는 반드시 0.4 미만으로 고정한다.
+#   ragas 0.4.3 이 langchain_community.chat_models.vertexai 를 무조건 import 하는데
+#   0.4.x 에서 이 모듈이 삭제되어 `import ragas` 자체가 실패한다.
+ragas==0.4.3
+langchain-community==0.3.31
+langchain-openai==1.7.4
+openpyxl==3.1.5
+rapidfuzz==3.14.6
+python-dotenv==1.2.3
+httpx==0.28.1
+
+# 테스트
+pytest

@@ -1,0 +1,20 @@
+# 비밀값
+.env
+
+# 가상환경 / 캐시
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 평가 산출물 (raw.jsonl, 결과 엑셀)
+eval/results/
+
+# 엑셀 임시 잠금 파일
+~$*.xlsx
+
+# 폐쇄망 반입용 설치 파일 (용량이 커서 git 제외)
+wheelhouse-win/
+wheelhouse-linux/
+*.zip
+*.tar.gz
