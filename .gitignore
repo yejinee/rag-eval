@@ -18,3 +18,4 @@ wheelhouse-win/
 wheelhouse-linux/
 *.zip
 *.tar.gz
+docs/
